@@ -1,0 +1,65 @@
+.impress-wrapper {
+    height: 100vh;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+
+    background-size: cover;
+    background-image: url("https://i.ibb.co/wS2qQQ8/bg.jpg");
+    /* background-size: cover; */
+    background-position: center center;
+}
+
+.bubu {
+    font-size: 5rem;
+    color: #E90023;
+    cursor: grab;
+}
+
+.paper {
+    background-image: url("https://i.ibb.co/4TkZDt5/paper-background.webp");
+    background-size: 500px;
+    background-position: center center;
+    box-shadow: 1px 15px 20px 0px rgba(0, 0, 0, 0.5);
+    cursor: grab;
+    /* transform: rotateZ(-5deg); */
+    position: absolute;
+}
+
+img {
+    max-height: 200px;
+    vertical-align: bottom;
+    width: 100%;
+    user-select: none;
+    pointer-events: none;
+    object-fit: cover;
+}
+
+.paper.heart {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.paper.heart::after {
+    content: "";
+    background-image: url('https://cdn.pixabay.com/photo/2016/03/31/19/25/cartoon-1294994__340.png');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+
+p {
+    font-size: 30px;
+    color: rgb(0, 0, 100);
+    opacity: 0.75;
+    user-select: none;
+}
