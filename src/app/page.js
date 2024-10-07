@@ -5,7 +5,12 @@ export default function Home() {
   return (
     <div>
       <main>
-        <a href="./impress">Click here</a>
+        <div>
+          <a href="./impress">Click here</a>
+        </div>
+        <div>
+          <a href="./happy-birthday">Birthday Booo. Click here nowwww!!</a>
+        </div>
       </main>
     </div>
   );
